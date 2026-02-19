@@ -1,21 +1,19 @@
 const fs = require('fs');
 const path = require('path');
+const { kv } = require('@vercel/kv');
 
-module.exports = (req, res) => {
+module.exports = async (req, res) => {
     const { file } = req.query;
     if (!file) return res.status(400).send('Missing file parameter');
 
     const id = file.split('.')[0];
-    const MINTED_FILE = path.join(process.cwd(), 'data/minted_status.json');
     const IMAGES_DIR = path.join(process.cwd(), 'data/images');
     const HIDDEN_IMG = path.join(process.cwd(), 'data/hidden_image.jpg');
 
-    let mintedIds = [];
-    if (fs.existsSync(MINTED_FILE)) {
-        mintedIds = JSON.parse(fs.readFileSync(MINTED_FILE, 'utf8'));
-    }
+    // Check if token is revealed in KV database
+    const isRevealed = await kv.sismember('revealed_tokens', id);
 
-    if (mintedIds.includes(id)) {
+    if (isRevealed) {
         const imgPath = path.join(IMAGES_DIR, file);
         if (fs.existsSync(imgPath)) {
             res.setHeader('Content-Type', 'image/jpeg');
