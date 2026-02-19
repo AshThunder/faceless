@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3975",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal terracotta of the hidden realm, their Azure Reflection mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3975.png",
+  "dna": "04fbaf33636c937f816413eb2219a2189bcda56c",
+  "edition": 3975,
+  "date": 1771499607479,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "terracotta"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Obsidian Husk"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Aetheric Ranger Vest"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Azure Reflection"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

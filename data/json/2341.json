@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #2341",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal terracotta of the hidden realm, their Eternal Stillness mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Celestial Wings wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "2341.png",
+  "dna": "11cdb8d84cbe7074be0aab4797256f0b6f0b6f3d",
+  "edition": 2341,
+  "date": 1771499448782,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "terracotta"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Celestial Wings"
+    },
+    {
+      "trait_type": "body",
+      "value": "Terra Core"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Veil-Walker Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Eternal Stillness"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Nomad’s Peak"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

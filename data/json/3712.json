@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3712",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal terracotta of the hidden realm, their Aetheric Flow Paint mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3712.png",
+  "dna": "46c4fd99e3f6e333ede637bbf1e6b677274b12cc",
+  "edition": 3712,
+  "date": 1771499582017,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "terracotta"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Obsidian Husk"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Nomad shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Aetheric Flow Paint"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

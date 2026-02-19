@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #115",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal sage green of the hidden realm, they move unmasked, their true essence revealed to the harsh, wavering truths of The Veil. With their Aetheric Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "115.png",
+  "dna": "f5907cabcffa3dd2a7d82db642223a05311d4a0d",
+  "edition": 115,
+  "date": 1771499221144,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sage green"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Aetheric Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ivory Vessel"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "none"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

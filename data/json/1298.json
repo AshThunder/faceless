@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1298",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal mustard yellow of the hidden realm, their Mana Siphon mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Soul Bound Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1298.png",
+  "dna": "36ec5bb9ebe1a20171e6e35cc5d66ef72b6dd25f",
+  "edition": 1298,
+  "date": 1771499344257,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "mustard yellow"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Soul Bound Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Obsidian Husk"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Void-Bonded Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Mana Siphon"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

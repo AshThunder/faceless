@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3383",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Verdant Whisper mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Celestial Wings wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3383.png",
+  "dna": "b8e4821003bf18942e7a4451b5d2f272fd518342",
+  "edition": 3383,
+  "date": 1771499550513,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Celestial Wings"
+    },
+    {
+      "trait_type": "body",
+      "value": "Terra Core"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Verdant Whisper"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Nomad’s Peak"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

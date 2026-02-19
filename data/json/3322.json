@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3322",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal sage green of the hidden realm, they move unmasked, their true essence revealed to the harsh, wavering truths of The Veil. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3322.png",
+  "dna": "01a15e17c92e3de4a915178415d71d646f02729b",
+  "edition": 3322,
+  "date": 1771499544687,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sage green"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Azure Echo"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Soul-Threaded Garment"
+    },
+    {
+      "trait_type": "mask",
+      "value": "none"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

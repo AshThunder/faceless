@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #399",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Soul-Scan Lenses mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Aetheric Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "399.png",
+  "dna": "33caaa1d96874f782b609c6bd2e02575e0390941",
+  "edition": 399,
+  "date": 1771499251149,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Aetheric Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Terra Core"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Soul-Threaded Garment"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Soul-Scan Lenses"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

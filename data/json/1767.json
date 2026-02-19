@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1767",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their The Sight of Truth mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1767.png",
+  "dna": "0f24d086ca31771ee73cee1e37669e9b3505f29f",
+  "edition": 1767,
+  "date": 1771499391142,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Obsidian Husk"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "The Sight of Truth"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Crown of the Unseen"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

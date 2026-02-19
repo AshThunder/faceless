@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #454",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal sage green of the hidden realm, their Stellar Spectacles mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Celestial Wings wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "454.png",
+  "dna": "2369a774acee375d5f89ae0c800cc7d6872c009a",
+  "edition": 454,
+  "date": 1771499257183,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sage green"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Celestial Wings"
+    },
+    {
+      "trait_type": "body",
+      "value": "Obsidian Husk"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Veil-Walker Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Stellar Spectacles"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

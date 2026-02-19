@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #407",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal sage green of the hidden realm, their Primal Omen Paint mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "407.png",
+  "dna": "f8f9100453974447d761b5e2396680b09bc93354",
+  "edition": 407,
+  "date": 1771499251994,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sage green"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ember Cast"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Nomad shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Primal Omen Paint"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Veil-Walker Hood"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

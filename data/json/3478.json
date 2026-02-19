@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3478",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal mustard yellow of the hidden realm, they move unmasked, their true essence revealed to the harsh, wavering truths of The Veil. With their Abyssal Flight wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3478.png",
+  "dna": "8f0d279447f5e385a49b15d18ed55a577ef281ce",
+  "edition": 3478,
+  "date": 1771499559827,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "mustard yellow"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Abyssal Flight"
+    },
+    {
+      "trait_type": "body",
+      "value": "Azure Echo"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Tribe Guardian Plate"
+    },
+    {
+      "trait_type": "mask",
+      "value": "none"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

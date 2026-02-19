@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3926",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal terracotta of the hidden realm, their Lunar Grace Mask mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3926.png",
+  "dna": "1ef0188b8420484ad711dd7262c1a6525ea1d89c",
+  "edition": 3926,
+  "date": 1771499602625,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "terracotta"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Obsidian Husk"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Nomad shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Lunar Grace Mask"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Sage’s Wisdom"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

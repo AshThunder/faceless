@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1432",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Void-Walker Goggles mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1432.png",
+  "dna": "ce1f3425ab75d6098d9e3ce32d5b035193d2da99",
+  "edition": 1432,
+  "date": 1771499357545,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Void-Bonded Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Void-Walker Goggles"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

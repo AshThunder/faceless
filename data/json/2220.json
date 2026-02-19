@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #2220",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Guardian of the Veil mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Void Glider Wings wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "2220.png",
+  "dna": "b173eb50548449953353ade670203b642b1c30fe",
+  "edition": 2220,
+  "date": 1771499436873,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Void Glider Wings"
+    },
+    {
+      "trait_type": "body",
+      "value": "Obsidian Husk"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Void-Bonded Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Guardian of the Veil"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Crown of the Unseen"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

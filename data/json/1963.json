@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1963",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal terracotta of the hidden realm, their Void-Vision Filters mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Soul Bound Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1963.png",
+  "dna": "c333f46e2be44f00db57d0e24f754e64a3a37963",
+  "edition": 1963,
+  "date": 1771499410812,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "terracotta"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Soul Bound Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Terra Core"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Aetheric Ranger Vest"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Void-Vision Filters"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

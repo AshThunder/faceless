@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #304",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Astral Compass mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "304.png",
+  "dna": "5ed93d3336b2247fe2fffb88fb311af8bdf13519",
+  "edition": 304,
+  "date": 1771499241143,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Nomad shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Astral Compass"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #666",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Void-Walker Goggles mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "666.png",
+  "dna": "fe0b361decfe1672f9068c9c97ce64a00421785a",
+  "edition": 666,
+  "date": 1771499279498,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Verdant Spirit"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Soul-Threaded Garment"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Void-Walker Goggles"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

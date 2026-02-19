@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #329",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal sage green of the hidden realm, their The Silent Witness mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "329.png",
+  "dna": "b8753fa6c4ffca697a4b638212d963bb6b34ba67",
+  "edition": 329,
+  "date": 1771499243957,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sage green"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Obsidian Husk"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Nomad shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "The Silent Witness"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

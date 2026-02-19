@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3652",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Primal Omen Paint mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Void Glider Wings wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3652.png",
+  "dna": "69eed9dbaca3019b3826c572eca896df5e3c69a5",
+  "edition": 3652,
+  "date": 1771499576267,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Void Glider Wings"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ember Cast"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Soul-Threaded Garment"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Primal Omen Paint"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Sage’s Wisdom"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

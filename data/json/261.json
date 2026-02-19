@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #261",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Solar Radiance Visor mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "261.png",
+  "dna": "d4b27333dffd7d838ac940dd916e83f2121ca4cc",
+  "edition": 261,
+  "date": 1771499236644,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Azure Echo"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Solar Radiance Visor"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3083",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal terracotta of the hidden realm, their Star-Crossed Guard mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Celestial Wings wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3083.png",
+  "dna": "8f279646815403e236e7521128467b55b4883f3a",
+  "edition": 3083,
+  "date": 1771499522283,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "terracotta"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Celestial Wings"
+    },
+    {
+      "trait_type": "body",
+      "value": "Terra Core"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Tribe Guardian Plate"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Star-Crossed Guard"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

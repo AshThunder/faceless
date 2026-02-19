@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #223",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Aetheric Drifter mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "223.png",
+  "dna": "4ec598c57b9ce2534fa229c14447ca5903efb9f1",
+  "edition": 223,
+  "date": 1771499232536,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Aetheric Ranger Vest"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Aetheric Drifter"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Unity Band"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

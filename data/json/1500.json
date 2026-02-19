@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1500",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Lunar Grace Mask mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Abyssal Flight wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1500.png",
+  "dna": "4bb602c36e044d4193d1772d69c2ef5990064850",
+  "edition": 1500,
+  "date": 1771499364185,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Abyssal Flight"
+    },
+    {
+      "trait_type": "body",
+      "value": "Azure Echo"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Mystic Weave Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Lunar Grace Mask"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Nomad’s Peak"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

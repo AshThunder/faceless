@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1068",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal terracotta of the hidden realm, their Ancient Lineage Sigils mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Aetheric Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1068.png",
+  "dna": "2f73ab4addcb18af62a09ea7154bc0a815f02fe2",
+  "edition": 1068,
+  "date": 1771499321178,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "terracotta"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Aetheric Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Verdant Spirit"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Ancient Lineage Sigils"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Nomad’s Peak"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

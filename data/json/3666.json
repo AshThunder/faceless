@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3666",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Spectral Resonator mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Soul Bound Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3666.png",
+  "dna": "e21f5cadb4a6ca6730da1559d70b017b3525a0fa",
+  "edition": 3666,
+  "date": 1771499577663,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Soul Bound Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Veil-Walker Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Spectral Resonator"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Sage’s Wisdom"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

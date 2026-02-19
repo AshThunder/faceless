@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #108",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Mist Walker Visor mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Aetheric Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "108.png",
+  "dna": "9fe48b5623a6f5b3ccd14dbf1e71296d0704b884",
+  "edition": 108,
+  "date": 1771499220378,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Aetheric Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ivory Vessel"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Ancient Weave Tunic"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Mist Walker Visor"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Veil-Walker Hood"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

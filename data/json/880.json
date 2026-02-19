@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #880",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal mustard yellow of the hidden realm, their Void-Vision Filters mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Abyssal Flight wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "880.png",
+  "dna": "a17400b355277681d5eed7b8e1f198c1f25d649a",
+  "edition": 880,
+  "date": 1771499301888,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "mustard yellow"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Abyssal Flight"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Nomad shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Void-Vision Filters"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Sage’s Wisdom"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

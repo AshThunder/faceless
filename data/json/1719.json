@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1719",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal sage green of the hidden realm, their Oracle Lens mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1719.png",
+  "dna": "51919477985661850021d8a883651fa493b5bc37",
+  "edition": 1719,
+  "date": 1771499386271,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sage green"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ivory Vessel"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Mystic Weave Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Oracle Lens"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Star-Traced Brim"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

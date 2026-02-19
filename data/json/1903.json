@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1903",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Obsidian Stillness mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Void Glider Wings wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1903.png",
+  "dna": "26283890e88fb88af032a8e48e33eaf3b99da390",
+  "edition": 1903,
+  "date": 1771499404793,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Void Glider Wings"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ember Cast"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Veil-Walker Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Obsidian Stillness"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Celestial Resonance Cap"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

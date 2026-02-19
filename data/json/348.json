@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #348",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Spirit-Flame Etching mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "348.png",
+  "dna": "a223a5a72c3f94e4ced1ae9e0f8635db2bb46f8e",
+  "edition": 348,
+  "date": 1771499245883,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Verdant Spirit"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Aetheric Ranger Vest"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Spirit-Flame Etching"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Nomad’s Peak"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

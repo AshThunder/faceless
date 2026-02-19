@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3933",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Cosmos Watcher mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Abyssal Flight wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3933.png",
+  "dna": "1947fc62f0f51e42c1e07498d5328a1c772febbf",
+  "edition": 3933,
+  "date": 1771499603372,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Abyssal Flight"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Tribe Guardian Plate"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Cosmos Watcher"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

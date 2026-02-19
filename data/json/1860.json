@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1860",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal sage green of the hidden realm, their Guardian of the Veil mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1860.png",
+  "dna": "133fbeadc8ec55ffc21a960f9b1351722861818f",
+  "edition": 1860,
+  "date": 1771499400244,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sage green"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Azure Echo"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Nomad shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Guardian of the Veil"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Crown of the Unseen"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3679",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal mustard yellow of the hidden realm, their Gaze of the Void mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3679.png",
+  "dna": "0d4c6b97f81b653e0d91a1a5b0aead1650bda26d",
+  "edition": 3679,
+  "date": 1771499578931,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "mustard yellow"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ivory Vessel"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Veil-Walker Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Gaze of the Void"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

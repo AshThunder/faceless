@@ -1,0 +1,15 @@
+{
+    "name": "Hidden Tribe Member",
+    "description": "The Veil is thinning. This member of the Faceless Tribe is currently shifting between worlds. Their true form will be revealed the moment they are summoned to this realm.",
+    "image": "https://raw.githubusercontent.com/HashLips/hashlips_art_engine/main/build/images/hidden.png",
+    "attributes": [
+        {
+            "trait_type": "Identity",
+            "value": "Searching..."
+        },
+        {
+            "trait_type": "Status",
+            "value": "Shifting"
+        }
+    ]
+}

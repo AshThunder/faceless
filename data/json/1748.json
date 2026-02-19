@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1748",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Nebula Mist Tattoos mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Abyssal Flight wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1748.png",
+  "dna": "a3a2ca564e501c411d117894d41c6e2bcaf363d1",
+  "edition": 1748,
+  "date": 1771499389151,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Abyssal Flight"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Veil-Walker Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Nebula Mist Tattoos"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Crown of the Unseen"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

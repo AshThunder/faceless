@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1677",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal sage green of the hidden realm, they move unmasked, their true essence revealed to the harsh, wavering truths of The Veil. With their Abyssal Flight wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1677.png",
+  "dna": "f4e7f2c5b4eeeb3372a49008ffd909dd2c44e90e",
+  "edition": 1677,
+  "date": 1771499382073,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sage green"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Abyssal Flight"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "none"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Veil-Walker Hood"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

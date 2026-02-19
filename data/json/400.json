@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #400",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal mustard yellow of the hidden realm, their The Forgotten King mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Soul Bound Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "400.png",
+  "dna": "6b3fb2f159966d221142b794df75af4fe1dd6d10",
+  "edition": 400,
+  "date": 1771499251271,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "mustard yellow"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Soul Bound Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Verdant Spirit"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Ancient Weave Tunic"
+    },
+    {
+      "trait_type": "mask",
+      "value": "The Forgotten King"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Veil-Walker Hood"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

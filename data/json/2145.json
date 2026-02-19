@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #2145",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Ancient Omen mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Abyssal Flight wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "2145.png",
+  "dna": "18a386d1eb93412409739076b60c30b9e55a11da",
+  "edition": 2145,
+  "date": 1771499429218,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Abyssal Flight"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Veil-Walker Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Ancient Omen"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Star-Traced Brim"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

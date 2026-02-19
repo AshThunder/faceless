@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1695",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal charcoal gray of the hidden realm, their Nebula Mist Tattoos mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Soul Bound Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1695.png",
+  "dna": "9d0b85377667b02e1c08b103f8c09c1e671f8243",
+  "edition": 1695,
+  "date": 1771499383865,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "charcoal gray"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Soul Bound Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ember Cast"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Nebula Mist Tattoos"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Unity Band"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

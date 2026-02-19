@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #3298",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Starlight Traces mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "3298.png",
+  "dna": "9be3586c6fcedafd1b11e5a8012c8c9685b4bb90",
+  "edition": 3298,
+  "date": 1771499542536,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Soul-Threaded Garment"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Starlight Traces"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Veil-Walker Hood"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

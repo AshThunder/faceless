@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #668",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Volcanic Ash Symbols mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Void Glider Wings wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "668.png",
+  "dna": "e38c78fc5e3b032b68fbeb0b9a7906ce30f633ff",
+  "edition": 668,
+  "date": 1771499279733,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Void Glider Wings"
+    },
+    {
+      "trait_type": "body",
+      "value": "Verdant Spirit"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Tribe Guardian Plate"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Volcanic Ash Symbols"
+    },
+    {
+      "trait_type": "hat",
+      "value": "none"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

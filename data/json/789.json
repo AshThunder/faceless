@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #789",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Spectral Resonator mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Abyssal Flight wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "789.png",
+  "dna": "c5a6ba805d4685b75e4cf545b123d79153d57567",
+  "edition": 789,
+  "date": 1771499292325,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Abyssal Flight"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ember Cast"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Nomad shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Spectral Resonator"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Star-Traced Brim"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

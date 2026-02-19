@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1623",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal mustard yellow of the hidden realm, their Whispered Secret Visor mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Void Glider Wings wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1623.png",
+  "dna": "bd654dd704e984e4fef35728c0eb5b44eee6df18",
+  "edition": 1623,
+  "date": 1771499376585,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "mustard yellow"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Void Glider Wings"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ivory Vessel"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Whispered Secret Visor"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Unity Band"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

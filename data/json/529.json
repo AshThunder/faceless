@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #529",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal sage green of the hidden realm, their Stellar Sentinel mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "529.png",
+  "dna": "1b9ed66175a2318e69dba9b275bd806734f8b32b",
+  "edition": 529,
+  "date": 1771499265102,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "sage green"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Obsidian Husk"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Veil-Walker Hoodie"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Stellar Sentinel"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Celestial Resonance Cap"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

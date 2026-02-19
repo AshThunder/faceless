@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1037",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal royal blue of the hidden realm, their Star-Crossed Guard mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1037.png",
+  "dna": "2db7824df6f4cd7b7bff044a27dc5ede2cb2e1f5",
+  "edition": 1037,
+  "date": 1771499318185,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "royal blue"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ember Cast"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Star-Crossed Guard"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Star-Traced Brim"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

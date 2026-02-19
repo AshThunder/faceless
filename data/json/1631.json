@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #1631",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal terracotta of the hidden realm, their Verdant Whisper mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. Though wingless, they move silently through shadows, seeking the Whispered Veil’s hidden doors with focused intent. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "1631.png",
+  "dna": "7edf6a93055dac20af8f0a819bc2129328446c4d",
+  "edition": 1631,
+  "date": 1771499377325,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "terracotta"
+    },
+    {
+      "trait_type": "wing",
+      "value": "none"
+    },
+    {
+      "trait_type": "body",
+      "value": "Ember Cast"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Silent Nomad Shroud"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Verdant Whisper"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Unity Band"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

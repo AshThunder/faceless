@@ -1,0 +1,35 @@
+{
+  "name": "Faceless Tribe #416",
+  "description": "Emerging from The Veil where reality wavers, this member of the Faceless Tribe drifts between worlds, unburdened by time or memory. Standing against the ethereal mustard yellow of the hidden realm, their Cosmos Watcher mask holds echoes of the universe—a fragment of a forgotten story etched into the hidden realm. With their Soul Bound Pinions wings, they possess keys to unseen realms, granting a fleeting glimpse of truths that mortals cannot comprehend. The Faceless Tribe is always watching, appearing where destiny calls.",
+  "image": "416.png",
+  "dna": "636bfaa32581d560708def0cb795e26f4753e1cb",
+  "edition": 416,
+  "date": 1771499253040,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "mustard yellow"
+    },
+    {
+      "trait_type": "wing",
+      "value": "Soul Bound Pinions"
+    },
+    {
+      "trait_type": "body",
+      "value": "Solar Graft"
+    },
+    {
+      "trait_type": "clothe",
+      "value": "Soul-Threaded Garment"
+    },
+    {
+      "trait_type": "mask",
+      "value": "Cosmos Watcher"
+    },
+    {
+      "trait_type": "hat",
+      "value": "Celestial Resonance Cap"
+    }
+  ],
+  "compiler": "The Faceless Tribe"
+}

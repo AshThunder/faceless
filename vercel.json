@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/metadata/(.*)",
+            "destination": "/api/metadata?id=$1"
+        },
+        {
+            "source": "/images/(.*)",
+            "destination": "/api/images?file=$1"
+        }
+    ]
+}
