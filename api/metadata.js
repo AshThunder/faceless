@@ -3,6 +3,7 @@ const path = require('path');
 const { kv } = require('@vercel/kv');
 
 module.exports = async (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
     const { id } = req.query;
     if (!id) return res.status(400).json({ error: 'Missing token ID' });
 

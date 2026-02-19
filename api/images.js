@@ -3,6 +3,7 @@ const path = require('path');
 const { kv } = require('@vercel/kv');
 
 module.exports = async (req, res) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
     const { file } = req.query;
     if (!file) return res.status(400).send('Missing file parameter');
 
