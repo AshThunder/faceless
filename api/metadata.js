@@ -17,6 +17,11 @@ module.exports = async (req, res) => {
         const filePath = path.join(METADATA_DIR, `${id}.json`);
         if (fs.existsSync(filePath)) {
             const meta = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+            // Rewrite the image URL to be absolute for OpenSea
+            const baseUrl = process.env.BASE_URL || `https://${req.headers.host}`;
+            meta.image = `${baseUrl}/images/${id}.jpg`;
+
             return res.json(meta);
         }
     }
