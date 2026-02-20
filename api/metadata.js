@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 const { kv } = require('@vercel/kv');
+const { ethers } = require('ethers');
 
 module.exports = async (req, res) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
     const { id } = req.query;
     if (!id) return res.status(400).json({ error: 'Missing token ID' });
 
@@ -11,8 +11,38 @@ module.exports = async (req, res) => {
     const HIDDEN_FILE = path.join(process.cwd(), 'hidden_metadata.json');
     const hiddenMetadata = JSON.parse(fs.readFileSync(HIDDEN_FILE, 'utf8'));
 
-    // 1. Check if token is revealed in KV database
-    const isRevealed = await kv.sismember('revealed_tokens', id);
+    // 1. Check if token is revealed in KV database (Fast Track)
+    let isRevealed = await kv.sismember('revealed_tokens', id);
+
+    // 2. If not in KV, check the blockchain directly (Safety Net)
+    if (!isRevealed) {
+        const ALCHEMY_KEY = process.env.ALCHEMY_API_KEY;
+        const CONTRACT = process.env.CONTRACT_ADDRESS;
+        const NETWORK = process.env.NETWORK; // e.g., 'base-mainnet'
+
+        if (ALCHEMY_KEY && CONTRACT) {
+            try {
+                // Map network names to RPC URLs
+                const rpcNetwork = NETWORK === 'base-sepolia' ? 'base-sepolia' : 'base';
+                const provider = new ethers.JsonRpcProvider(`https://${rpcNetwork}.g.alchemy.com/v2/${ALCHEMY_KEY}`);
+
+                // Minimal ABI for ownerOf
+                const abi = ["function ownerOf(uint256 tokenId) view returns (address)"];
+                const contract = new ethers.Contract(CONTRACT, abi, provider);
+
+                const owner = await contract.ownerOf(id);
+                if (owner && owner !== ethers.ZeroAddress) {
+                    isRevealed = true;
+                    // Cache it in KV so we don't have to RPC check again
+                    await kv.sadd('revealed_tokens', id);
+                    console.log(`Token #${id} revealed via live blockchain check.`);
+                }
+            } catch (err) {
+                // If ownerOf reverts, the token likely isn't minted yet.
+                console.log(`Token #${id} check failed or not minted: ${err.message}`);
+            }
+        }
+    }
 
     if (isRevealed) {
         const filePath = path.join(METADATA_DIR, `${id}.json`);
@@ -27,6 +57,6 @@ module.exports = async (req, res) => {
         }
     }
 
-    // 2. Default to hidden
+    // 3. Default to hidden
     res.json(hiddenMetadata);
 };
