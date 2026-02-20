@@ -11,6 +11,9 @@ module.exports = async (req, res) => {
     const HIDDEN_FILE = path.join(process.cwd(), 'hidden_metadata.json');
     const hiddenMetadata = JSON.parse(fs.readFileSync(HIDDEN_FILE, 'utf8'));
 
+    // Support the user's specific placeholder name if it exists in the contract
+    hiddenMetadata.name = "The Whispering Veil";
+
     // 1. Check if token is revealed in KV database (Fast Track)
     let isRevealed = await kv.sismember('revealed_tokens', id);
     let revealSource = isRevealed ? 'kv' : 'none';
@@ -38,8 +41,9 @@ module.exports = async (req, res) => {
                 const abi = ["function ownerOf(uint256 tokenId) view returns (address)"];
                 const contract = new ethers.Contract(CONTRACT, abi, provider);
 
-                // Ensure ID is passed as a number/BigInt for robustness
-                const owner = await contract.ownerOf(id);
+                // Use BigInt to avoid any floating point or string issues
+                const tokenId = BigInt(id);
+                const owner = await contract.ownerOf(tokenId);
 
                 if (owner && owner !== ethers.ZeroAddress) {
                     isRevealed = true;
