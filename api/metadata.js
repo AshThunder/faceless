@@ -13,6 +13,7 @@ module.exports = async (req, res) => {
 
     // 1. Check if token is revealed in KV database (Fast Track)
     let isRevealed = await kv.sismember('revealed_tokens', id);
+    let revealSource = isRevealed ? 'kv' : 'none';
 
     // 2. If not in KV, check the blockchain directly (Safety Net)
     if (!isRevealed) {
@@ -22,17 +23,27 @@ module.exports = async (req, res) => {
 
         if (ALCHEMY_KEY && CONTRACT) {
             try {
-                // Map network names to RPC URLs
-                const rpcNetwork = NETWORK === 'base-sepolia' ? 'base-sepolia' : 'base';
-                const provider = new ethers.JsonRpcProvider(`https://${rpcNetwork}.g.alchemy.com/v2/${ALCHEMY_KEY}`);
+                // CORRECTED Alchemy mapping (v2 uses full network-type subdomains)
+                let rpcUrl;
+                if (NETWORK === 'base-sepolia') {
+                    rpcUrl = `https://base-sepolia.g.alchemy.com/v2/${ALCHEMY_KEY}`;
+                } else {
+                    // Default to base-mainnet for stability
+                    rpcUrl = `https://base-mainnet.g.alchemy.com/v2/${ALCHEMY_KEY}`;
+                }
+
+                const provider = new ethers.JsonRpcProvider(rpcUrl);
 
                 // Minimal ABI for ownerOf
                 const abi = ["function ownerOf(uint256 tokenId) view returns (address)"];
                 const contract = new ethers.Contract(CONTRACT, abi, provider);
 
+                // Ensure ID is passed as a number/BigInt for robustness
                 const owner = await contract.ownerOf(id);
+
                 if (owner && owner !== ethers.ZeroAddress) {
                     isRevealed = true;
+                    revealSource = 'blockchain';
                     // Cache it in KV so we don't have to RPC check again
                     await kv.sadd('revealed_tokens', id);
                     console.log(`Token #${id} revealed via live blockchain check.`);
@@ -53,10 +64,12 @@ module.exports = async (req, res) => {
             const baseUrl = process.env.BASE_URL || `https://${req.headers.host}`;
             meta.image = `${baseUrl}/images/${id}.jpg`;
 
+            res.setHeader('X-Reveal-Source', revealSource);
             return res.json(meta);
         }
     }
 
     // 3. Default to hidden
+    res.setHeader('X-Reveal-Source', revealSource);
     res.json(hiddenMetadata);
 };
