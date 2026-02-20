@@ -1,4 +1,5 @@
 const { kv } = require('@vercel/kv');
+const axios = require('axios');
 
 module.exports = async (req, res) => {
     if (req.method !== 'POST') return res.status(405).send('Method Not Allowed');
@@ -10,41 +11,49 @@ module.exports = async (req, res) => {
     }
 
     const revealedThisBatch = [];
+    const OPENSEA_API_KEY = process.env.OPENSEA_API_KEY;
+    const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS;
+    const NETWORK = process.env.NETWORK; // e.g., 'base' or 'base-sepolia'
+
+    // Map internal network names to OpenSea chain identifiers
+    const networkMap = {
+        'base-mainnet': 'base',
+        'base-sepolia': 'base_sepolia',
+        'ethereum': 'ethereum',
+        'mainnet': 'ethereum'
+    };
+
+    const osChain = networkMap[NETWORK] || NETWORK;
 
     for (const activity of event.activity) {
-        // Alchemy Transfer events from Mint (0x0 address)
         if (activity.fromAddress === '0x0000000000000000000000000000000000000000') {
             const tokenId = parseInt(activity.erc721TokenId, 16).toString();
             revealedThisBatch.push(tokenId);
             console.log(`Reveal queued for Token ID: ${tokenId}`);
+
+            // Optional: Tell OpenSea to refresh this token immediately
+            if (OPENSEA_API_KEY && CONTRACT_ADDRESS && osChain) {
+                try {
+                    await axios.post(
+                        `https://api.opensea.io/v2/chain/${osChain}/contract/${CONTRACT_ADDRESS}/nfts/${tokenId}/refresh`,
+                        {},
+                        {
+                            headers: {
+                                'accept': 'application/json',
+                                'X-API-KEY': OPENSEA_API_KEY
+                            }
+                        }
+                    );
+                    console.log(`OpenSea refresh triggered for #${tokenId}`);
+                } catch (err) {
+                    console.error(`OpenSea refresh failed for #${tokenId}:`, err.response?.data || err.message);
+                }
+            }
         }
     }
 
     if (revealedThisBatch.length > 0) {
-        // 1. Atomic add to KV set
         await kv.sadd('revealed_tokens', ...revealedThisBatch);
-
-        // 2. Proactively trigger OpenSea Metadata Refresh (if key provided)
-        const openseaKey = process.env.OPENSEA_API_KEY;
-        const contractAddress = process.env.CONTRACT_ADDRESS;
-        const network = process.env.NETWORK || 'base'; // Default to base
-
-        if (openseaKey && contractAddress) {
-            for (const tokenId of revealedThisBatch) {
-                try {
-                    await fetch(`https://api.opensea.io/api/v2/chain/${network}/contract/${contractAddress}/nfts/${tokenId}/refresh`, {
-                        method: 'POST',
-                        headers: {
-                            'X-API-KEY': openseaKey,
-                            'accept': 'application/json'
-                        }
-                    });
-                    console.log(`OpenSea refresh triggered for token ${tokenId}`);
-                } catch (err) {
-                    console.error(`Failed to trigger OpenSea refresh for ${tokenId}:`, err);
-                }
-            }
-        }
     }
 
     res.status(200).send('Webhook processed');
